@@ -13,6 +13,7 @@
 		9139826724A130D900E7F4F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9139826624A130D900E7F4F0 /* Assets.xcassets */; };
 		9139826A24A130D900E7F4F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9139826824A130D900E7F4F0 /* LaunchScreen.storyboard */; };
 		9139827224A13D9200E7F4F0 /* UsersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9139827124A13D9200E7F4F0 /* UsersVC.swift */; };
+		9139827424A152DF00E7F4F0 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9139827324A152DF00E7F4F0 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		9139826924A130D900E7F4F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9139826B24A130D900E7F4F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9139827124A13D9200E7F4F0 /* UsersVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersVC.swift; sourceTree = "<group>"; };
+		9139827324A152DF00E7F4F0 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				9139827124A13D9200E7F4F0 /* UsersVC.swift */,
+				9139827324A152DF00E7F4F0 /* User.swift */,
 				9139826324A130D200E7F4F0 /* Main.storyboard */,
 				9139826624A130D900E7F4F0 /* Assets.xcassets */,
 				9139825F24A130D200E7F4F0 /* SceneDelegate.swift */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9139827424A152DF00E7F4F0 /* User.swift in Sources */,
 				9139825E24A130D200E7F4F0 /* AppDelegate.swift in Sources */,
 				9139826024A130D200E7F4F0 /* SceneDelegate.swift in Sources */,
 				9139827224A13D9200E7F4F0 /* UsersVC.swift in Sources */,
